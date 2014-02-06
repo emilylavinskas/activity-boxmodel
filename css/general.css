@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    background-color: white;
+    overflow:hidden; 
+}
+
+.logo {
+    height: 6.5rem;
+    width:auto;
+    margin: .5rem 5%;
+   
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow:hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: helvetica, arial, sans serif;
+    margin: 1.5rem 0;
+    line-height: 2.5rem;
+}
+
+h1 + p {
+    font-size: 2rem;
+}
+
+p {
+    font-family: helvetica, arial, sans-serif;
+    line-height: 1.25rem;
+    margin: 0 0 1.5;
+}
+
+p2 {
+    font-family: helvetica, arial, sans-serif;
+    line-height: 1.25rem;
+}
+
+ul {
+    font-family: helvetica, arial, sans-serif;
+    font-size: .75rem;
+}
+
+figure {
+    margin: 0 auto 1rem;
+    width: 90%; 
+}
+    
+figcaption {
+    font-size: .75rem;
+    margin; 1rem 0 0;
+}
+    
+footer {
+    background-color: black;
+    overflow:hidden;
+}
+
+footer p {
+    font-size: .50rem;
+    margin: .5rem 5% 5rem;
+    color: white;
+}
+    
+footer a {
+    color: white;
+}
